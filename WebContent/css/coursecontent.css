@@ -1,0 +1,313 @@
+ /*main page heading*/
+ .main-heading1{
+ 	text-align: center;
+ 	padding-bottom: 10px;
+ }
+ html,body {
+    margin:0;
+    padding:0;
+	font-family: 'Merriweather', serif;
+}
+.main-div{
+	padding-top:100px;
+	
+}
+ /* side bar*/
+.ais-list-label1 >a {
+	text-decoration: none;
+}
+a:hover{
+	color: violet;
+}
+
+.main-content1{
+	display:block;
+	border:1px solid wheat;
+
+}
+.nav-tabs >li{
+	width: 168px;
+	text-align: center;
+}
+.nav-tabs>li>a{
+	background-color:blue;
+	color: white;
+}
+.nav-tabs>li>a:hover{
+	color:black;
+}
+.important1 h3{
+	text-align: center;
+}
+.schedule1 h3,h4{
+	text-align: center;
+}
+.schedule1 div{
+	display: block;
+	border-bottom:1px solid white; 
+	padding-top: 5px;
+}
+.schedule1{
+	color: white;
+	margin:0px auto;
+	padding: 18px;
+	background-color: #2b5b9b;
+	margin-bottom:20px;
+	   
+}
+
+.schedule-details1:hover{
+	color: black;
+	background-color: white;
+	padding-left: 18px;	
+}
+.schedule1 ul>li{
+	list-style-type:none;
+}
+
+#enroll1{
+	float: right;
+}
+.btn-primary-outline{
+	background-color: transparent;
+	border-color: white;
+	box-sizing: border-box;	
+    
+}
+.
+/*--------------------*/
+/* Wrap Text SECTION */
+/*--------------------*/
+.wraptext1{
+	padding-top: 100px;
+	text-align: center;
+	
+}
+.wraptext1 #data11 .two{
+	padding: 30px;
+	border:1px solid white;
+	background-color:#c4c9d3;
+	overflow: hidden;
+	font-size:20px;
+}
+.wraptext1 #data12 .two{
+	padding: 30px;
+	border:1px solid white;
+	background-color:#c4c9d3;
+	overflow: hidden;
+}
+/*--------------------*/
+/* FOOTER SECTION */
+/*--------------------*/
+
+#footer{
+	float: left;
+	display: inline;
+	width: 100%;
+	padding-top: 40px;
+  }
+  .footer_top{
+	float: left;
+	display: inline;
+	width: 100%;
+	background-color: #1e2223;
+	padding: 60px 0px;
+  }
+  .single_footer_widget {
+	display: inline;
+	float: left;
+	padding: 0 10px;
+	width: 100%;
+  }
+  .single_footer_widget > h3 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+  }
+  .single_footer_widget>p{
+	color: #fff;
+  }
+  .footer_widget_nav li a {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	display: block;
+	text-decoration:none;
+  }
+  
+  .footer_social li a {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-size: 22px;
+	padding: 0 10px;
+  }
+  .footer_bottom{
+	float: left;
+	display: inline;
+	width: 100%;
+	background-color: #f8f8f8;
+	padding: 20px 0px;
+  }
+  .footer_bootomLeft{
+	float: left;
+	display: inline;
+	width: 100%;
+  }
+  .footer_bootomLeft>p,.footer_bootomRight>p{margin-bottom: 0px;}
+  
+  .footer_bootomRight{
+	float: left;
+	display: inline;
+	width: 100%;
+	text-align: right;
+  }
+  
+  /*..............navbar.................*/
+  .nav-tabs {
+  margin-bottom: 15px;
+}
+.sign-with {
+  margin-top: 25px;
+  padding: 20px;
+}
+div#OR {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #C2C2C2;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  float: right;
+  position: absolute;
+  right: -16px;
+  top: 40%;
+  z-index: 1;
+  background: #DFDFDF;
+}
+
+
+/*scrol to top*/
+
+.scrollToTop {
+  background: url("images/bootom-top-arrow.png") no-repeat scroll 13px 12px #ffffff;
+  border: 3px solid #f0f1f3;
+  border-radius: 5px;
+  bottom: 20px;
+  display: inline-block;
+  height: 54px;
+  opacity: 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 54px;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+.scrollToTop:hover{
+  background-position: 13px -50px;  
+  text-decoration: none;
+  outline: none;
+}
+
+/*--------------------*/
+/* HOME HEADER */
+/*--------------------*/
+
+#header{
+	float: left;
+	display: inline;
+	width: 100%;
+  background-color: #313b3d;	
+}
+#cont{
+	margin-top:90px;
+	
+}
+.course-type h4{
+	color:#7a818b;
+	text-transform:uppercase;
+	text-align:center;
+}
+.course-number h4{
+	color:#7a818b;
+	text-transform:uppercase;
+	text-align:center;
+}
+.course-duration h4{
+	color:#7a818b;
+	text-transform:uppercase;
+	text-align:center;
+}
+.course-type h5{
+	text-align:center;
+}
+.course-number h5{
+	
+	text-align:center;
+}
+.course-duration h5{
+	
+	text-align:center;
+}
+.btnenroll{
+	text-align:center;
+}
+.enrollbtn{
+	margin-top:35px;
+}
+
+
+/*--------.menu_area-------- */
+
+#logo img{
+  margin-left: -50px;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  
+}
+.navbar-brand >span{
+	color:#78adc9;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px; 
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  background-color: transparent;
+  color: #78adc9;
+}
+.navbar-default {
+  background-color: #313b3d;
+  border-color: transparent;
+}
+#navbar{overflow-x: hidden;}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  padding: 30px 15px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+ #login {
+margin-top:25px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+  color:#78adc9;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color:#78adc9;
+}
+
+  
