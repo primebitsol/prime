@@ -20,14 +20,11 @@ body{
     background-color: #fff;
     margin-bottom: 10px;
 }
-.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
-{
-    background: #428bca;
-}
 
 .item.list-group-item .list-group-image
 {
     margin-right: 10px;
+    padding-top:40px;
 }
 .item.list-group-item .thumbnail
 {
@@ -37,20 +34,22 @@ body{
 {
     padding: 9px 9px 0px 9px;
 }
-.item.list-group-item:nth-of-type(odd)
+/*.item.list-group-item:nth-of-type(odd)
 {
     background: #eeeeee;
 }
-
+*/
 .item.list-group-item:before, .item.list-group-item:after
 {
     display: table;
     content: " ";
 }
 
-.item.list-group-item img
+.item.list-group-item .course-icon
 {
     float: left;
+    height: 175px;
+    width: 260px;
 }
 .item.list-group-item:after
 {
@@ -59,6 +58,17 @@ body{
 .list-group-item-text
 {
     margin: 0 0 11px;
+}
+#list .course-icon{
+	width: 32.3%;
+    float: left;
+}
+.item.list-group-item .meta-categories{
+	float:right;
+}
+.item.list-group-item .caption{
+	float: right;
+    padding-top: 25px;
 }
 /*----------nav bar---------------*/
 #logo img{
@@ -179,6 +189,9 @@ aside ul li{
 }
 .caption a{
     text-decoration: none;
+}
+.course-icon >.list-group-image{
+	    padding-top: 40px;
 }
 /*----footer------*/
 
