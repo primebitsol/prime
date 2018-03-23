@@ -44,8 +44,8 @@
 <section class="search-banner">
     <div class="form-group col-xs-12">
         <div class="col-xs-4"><h4 class="course-style">Find your course</h4></div>
-        <div class="col-xs-4"><input type="text" name="find your course" class="form-control"></div>
-        <div class="col-xs-4"><button class="btn btn-primary">Find course</button></div>
+        <div class="col-xs-4"><input type="text" name="find your course" class="form-control" id='search-criteria'></div>
+        <div class="col-xs-4"><button class="btn btn-primary" id="search">Find course</button></div>
     </div>
 </section>
 <!--end of banner-->  
@@ -66,16 +66,16 @@
                 <aside class="side-widget">
                 	<strong>Category Title</strong>
                     <ul>
-                        <li ><a href="#" class="filter_link" data-filter="Frontend">FrontEnd Development(9)</a></li>
-                        <li ><a href="#" class="filter_link" data-filter="Backend">BackEnd Development(8)</a></li>
-                        <li><a href="#" class="filter_link" data-filter="Fullstack">Full Stack Development(6)</a></li>
-                        <li><a href="#" class="filter_link" data-filter="Meanstack">Mean Stack Development (1)</a></li>                     
+                        <li><a href="#" class="filter_link" data-filter="Frontend" id="frontend">FrontEnd Development(9)</a></li>
+                        <li><a href="#" class="filter_link" data-filter="Backend" id="backend">BackEnd Development(8)</a></li>
+                        <li><a href="#" class="filter_link" data-filter="Fullstack" id="fullstack">Full Stack Development(6)</a></li>
+                        <li><a href="#" class="filter_link" data-filter="Meanstack" id="meanstack">Mean Stack Development (1)</a></li>                     
                     </ul>
                 </aside>
             </div><!--end of col-xs-3-->
             <div class="col-md-9" >
                 <!-- item1 -->
-                <div class="item col-sm-6 col-md-4 course Frontend">
+                <div class="item col-sm-6 col-md-4 course Frontend" id="frontend">
                     <div class="thumbnail">
                     	<div class="course-icon" style="background:linear-gradient(#B7F8DB,#50A7C2);">
                         	<img class="group list-group-image " src="images/icons/javascript.png" alt="javascript" />
@@ -203,7 +203,7 @@
                 </div>
                 <!-- item 5 end -->
                 <!-- item 6 -->
-                <div class="item  col-sm-6 col-md-4 course Frontend" >
+                <div class="item  col-sm-6 col-md-4 course Frontend" id="frontend">
                     <div class="thumbnail">
                         <div class="course-icon" style="background:linear-gradient(#22c1c3,#fdbb2d);">
                         	
@@ -406,7 +406,7 @@
                                         $21.000</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="">Buy Now</a>
+                                    <a class="btn btn-success" href="">Enroll</a>
                                 </div>
                             </div>
                         </div>
@@ -535,7 +535,7 @@
                                         $21.000</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="">Buy Now</a>
+                                    <a class="btn btn-success" href="">Enroll</a>
                                 </div>
                             </div>
                         </div>
@@ -775,29 +775,8 @@
 </footer>
 <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
+<!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function() {
-    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
-    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
-});
-
-</script>
-<script>
-    var $mediaElements = $('.course');
-
-$('.filter_link').click(function(e){
-    e.preventDefault();
-    // get the category from the attribute
-    var filterVal = $(this).data('filter');
-
-    if(filterVal === 'all'){
-      $mediaElements.show();
-    }else{
-       // hide all then filter the ones to show
-       $mediaElements.hide().filter('.' + filterVal).show();
-    }
-});
-</script>
+<!--javascript  -->
+	<script src="js/web_coursecontent.js"></script>
 </body>
