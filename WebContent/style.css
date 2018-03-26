@@ -179,6 +179,10 @@ img{
  #login {
 margin-top:25px;
 }
+#enquiry{
+	margin-top: 25px;
+	margin-left:10px;
+}
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
 }

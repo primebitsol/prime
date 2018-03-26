@@ -194,6 +194,7 @@ aside ul li{
 }
 .caption a{
     text-decoration: none;
+    overflow:hidden;
 }
 .course-icon >.list-group-image{
 	    padding-top: 40px;
@@ -208,6 +209,7 @@ aside ul li{
     display: inline;
     width: 100%;
     padding-top: 40px;
+    font-family:'Merriweather', serif;
   }
   .footer_top{
     float: left;
@@ -222,7 +224,7 @@ aside ul li{
     padding: 0 10px;
     width: 100%;
   }
-  .single_footer_widget > h4 {
+  .single_footer_widget > h3 {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 25px;
