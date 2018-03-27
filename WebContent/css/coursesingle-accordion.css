@@ -1,0 +1,54 @@
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#f7f7f7;
+    }
+    /*----- Section Titles -----*/
+    .accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #78A;
+    background:#78ADCE;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+    }
+    .accordion-section-title.active, .accordion-section-title:hover {
+    background:;
+    /* Type */
+    text-decoration:none;
+    }
+    .accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+    }
+    /*----- Section Content -----*/
+    .accordion-section-content {
+    padding:15px;
+    display:none;
+    }
+    span.acc-content {
+      width:300px;
+    }
+    span.acc-content i{
+    color:#78A;
+    }
+    span.acc-content p{
+      float:right;
+      padding-left:15px;
+      margin-top:-4px;
+    }
+    span.instructions ol li{
+      font-family: Raleway,sans-serif;
+      line-height: 1.6em;
+    }
+    .instructions{
+      line-height: 2.6em;
+    }
+    .instru-list{
+      line-height:2.6em;
+      font-family: sans-serif;
+    }
