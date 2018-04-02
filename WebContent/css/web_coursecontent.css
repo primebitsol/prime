@@ -11,6 +11,7 @@ body{
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    height:350px;
 }
 
 .item.list-group-item

@@ -103,12 +103,12 @@ function __doPostBack(eventTarget, eventArgument) {
 <div id="page-wrap" style="opacity: 1;">
 
 <section class="sub-banner sub-banner-course">
-<div class="awe-static bg-sub-banner-course">
+<div class="awe-static bg-sub-banner-course" style="background: linear-gradient(#22c1c3,#fdbb2d);">
 </div>
 <div class="container">
 <div class="sub-banner-content">
 <h2 class="text-center">
-<span id="ContentPlaceHolder1_lblCourseTitle">Learn Programming with .net Programming</span></h2>
+<span id="ContentPlaceHolder1_lblCourseTitle">Learn Programming with AngularJs Programming</span></h2>
 </div>
 </div>
 </section>
@@ -6769,7 +6769,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                         <select name="course_id" class="form-control">
 <option value="">Select Course</option>
 <option value="1">iOS Development</option>
-<option value="150">Certified Scrum Master Training (CSM®)</option>
+<option value="150">Certified Scrum Master Training (CSMÂ®)</option>
 <option value="2">Android Development</option>
 <option value="3">HTML5 and CSS3</option>
 <option value="4">PhoneGap</option>
@@ -7017,7 +7017,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                         <select name="course_id" class="form-control">
 <option value="" selected="selected">Select Course</option>
 <option value="1">iOS Development</option>
-<option value="150">Certified Scrum Master Training (CSM®)</option>
+<option value="150">Certified Scrum Master Training (CSMÂ®)</option>
 <option value="2">Android Development</option>
 <option value="3">HTML5 and CSS3</option>
 <option value="4">PhoneGap</option>
@@ -7271,7 +7271,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                         <select name="course_id" class="form-control">
 <option value="">Select Course</option>
 <option value="1">iOS Development</option>
-<option value="150">Certified Scrum Master Training (CSM®)</option>
+<option value="150">Certified Scrum Master Training (CSMÂ®)</option>
 <option value="2">Android Development</option>
 <option value="3">HTML5 and CSS3</option>
 <option value="4">PhoneGap</option>
@@ -7910,33 +7910,7 @@ $('.carousel').carousel({
 </div>
 
 </form>
-<script type="text/javascript" src="js/courselist-js/main.js"></script>   
-<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-        function close_accordion_section() {
-		$('.accordion .accordion-section-title').removeClass('active');
-		$('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-		}
-		$('.accordion-section-title').click(function(e) {
-		// Grab current anchor value
-		var currentAttrValue = $(this).attr('href');
-		if($(e.target).is('.active')) {
-		close_accordion_section();
-		}else {
-		close_accordion_section();
-		// Add active class to section title
-		$(this).addClass('active');
-		// Open up the hidden content panel
-		$('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-		}
-		e.preventDefault();
-		});
-    });
-</script>
+
     <!--============= main code end ================-->
     <!--=========== BEGIN FOOTER SECTION ================-->
     <footer id="footer">
