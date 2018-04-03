@@ -101,20 +101,28 @@
 	</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 project">
+				<div class="col-md-3 project">
+					<img src="images/projection.png"/>
 					<h3 id="counter">0</h3>
 					<h4>Awesome Projects</h4>
-					<p>Dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et lorem a laoreet phasellus ut nisi id leo molestie. </p>
+					
 				</div>
-				<div class="col-md-4 project">
+				<div class="col-md-3 project">
+				<img src="images/happy-children.png"/>
 					<h3 id="counter1">0</h3>
 					<h4>Happy Customers</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et. laoreet phasellus ut nisi id leo.  </p>
+					
 				</div>
-				<div class="col-md-4 project">
+				<div class="col-md-3 project">
+				<img src="images/experience.png"/>
 					<h3 id="counter2" style="margin-left: 20px;">0</h3>
-					<h4 style="margin-left: 20px;">Professional Awards</h4>
-					<p>Consectetur adipiscing elit quisque tempus eget diam et laoreet phasellus ut nisi id leo molestie adipiscing vitae a vel. </p>
+					<h4 style="margin-left: 20px;">Professional Experience</h4>					
+				</div>
+				<div class="col-md-3 project">
+					<img src="images/coffee-cup.png"/>
+					<h3 id="counter3">0</h3>
+					<h4>Cups of Coffee Consumed</h4>
+					
 				</div>
 			</div>
 		</div>
@@ -172,7 +180,7 @@
 			<div class="row team">
 				<div class="col-md-4 b1">
 						<img class="img-responsive" src="images/picTeam/picT1.png">
-						<h4>Tom Simpson</h4>
+						<h4>Kumud Kumar </h4>
 						<h5>CEO</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
 						<ul>
@@ -186,7 +194,7 @@
 			
 				<div class="col-md-4">
 						<img class="img-responsive" src="images/picTeam/picT2.png">
-						<h4>John Doe</h4>
+						<h4>Ranjana</h4>
 						<h5>Project Manager</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
 						<ul>
@@ -200,7 +208,7 @@
 			
 				<div class="col-md-4 b3">
 						<img class="img-responsive" src="images/picTeam/picT3.png">
-						<h4>Anna White</h4>
+						<h4>Neelima subramanyam</h4>
 						<h5>Developer</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
 						<ul>
@@ -634,19 +642,24 @@
 					$('#counter').text('0');
 					$('#counter1').text('0');
 					$('#counter2').text('0');
+					$('#counter3').text('0');
 					setInterval(function(){
 						
 						var curval=parseInt($('#counter').text());
 						var curval1=parseInt($('#counter1').text().replace(' ',''));
-						var curval2=parseInt($('#counter2').text());
-						if(curval<=707){
+						var curval2=parseInt($('#counter2').text().replace(' ',''));
+						var curval3=parseInt($('#counter3').text());
+						if(curval<=30){
 							$('#counter').text(curval+1);
 						}
-						if(curval1<=12280){
+						if(curval1<=1025){
 							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
 						}
-						if(curval2<=245){
+						if(curval2<=12){
 							$('#counter2').text(curval2+1);
+						}
+						if(curval3<=1000){
+							$('#counter3').text(sdf_FTS((curval3+10),0,' '));
 						}
 					}, 2);
 					
