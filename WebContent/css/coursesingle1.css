@@ -3,7 +3,17 @@
    }
    .nav-tabs > li {
     margin-right: 2px;
+    text-align:center;
 }	
+.content-space-header{
+    font-size: 18px;
+    line-height:1.6;
+
+}
+.content-space{
+    line-height:2; padding:30px; font-size: 18px;
+}
+
    .CourseClass:hover, .LikePageImg:hover {
             cursor: pointer
         }
@@ -2604,11 +2614,7 @@
                 .before-footer-link .mc-btn:first-child {
                     margin-left: 0
                 }
-
-        #footer {
-            background-color: #175690
-        }
-
+       
         footer#footer.footer-style-2 {
             position: fixed;
             width: 100%;

@@ -23,15 +23,15 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     
     <!-- Main structure css file -->
-    <link type="text/css" rel="stylesheet" href="css/coursesingle.css"/>
 	<link type="text/css" rel="stylesheet" href="css/coursesingle1.css"/>
-	<link type="text/css" rel="stylesheet" href="css/coursesingle2.css"/>   
-	<link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>  
+	  
+	
     <link rel="stylesheet" href="css/moredetails.css">
     <link rel="stylesheet" type="text/css" href="css/web_coursecontent.css">
     <link rel="stylesheet" href="css/coursesingle-accordion.css">
-    <link id="theme-style" rel="stylesheet" href="css/courselist-css/style.css">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    
     <link rel="stylesheet" href="css/navfoo.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -68,7 +68,7 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="courses.html">Training</a></li>
                 <li><a href="development.html">Development</a></li>
-                <li><a href="outsourcing.html">OutSourcing</a></li>              
+                <li><a href="outsourcing.html">OutSourcing</a></li>                
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="contact.html"><button id="enquiry" class="btn btn-success">Enquiry</button></a></li> 
@@ -123,7 +123,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
 <ul class="nav-tabs" role="tablist">
 <li class="active"><a href="#overview" role="tab" data-toggle="tab">Overview</a></li>
-<li ><a href="#about-course" role="tab" data-toggle="tab">About Course</a></li>
+<li ><a href="#about-course" role="tab" data-toggle="tab">Requirements</a></li>
 <li ><a href="#syllabus" role="tab" data-toggle="tab">Syllabus</a></li>
 <li ><a href="#moredetails" role="tab" data-toggle="tab">More Details</a></li>
 </ul>
@@ -131,68 +131,49 @@ function __doPostBack(eventTarget, eventArgument) {
 <div class="tab-content">
 
 <div class="tab-pane fade in active" id="overview">
-<h4 class="sm black bold">Introduction</h4>
+<h4 class="sm black bold">Who We Are</h4>
 <p>
-<span id="ContentPlaceHolder1_lblIntroduction">A course that teaches pointers, linked lists, general programming, algorithms and recursion like no one else.</span>
+<span id="ContentPlaceHolder1_lblIntroduction" style="line-height:1.8;font-size:17px;">Web Development is one of core services of Primebit Solutions. We specialize in engineering and migration to a unique, secure, comprehensive tailor-made web solutions with modern design and user experience including B2B and B2C portals, e-commerce, corporate intranet portals, products. Primebit has experienced web developers and has done many web solutions over the last 6 years.</span>
 </p>
-<h4 class="sm black bold">Description</h4>
+<h4 class="sm black bold">What We Do</h4>
 <p>
-<span id="ContentPlaceHolder1_lblDescription">Programming interviews are like standard plays in professional sport - prepare accordingly. Don't let Programming Interview gotchas get you down!
-Programming interviews differ from real programming jobs in several important aspects, so they merit being treated differently, just like set pieces in sport.
-Just like teams prepare for their opponent's playbooks in professional sport, it makes sense for you to approach programming interviews anticipating the interviewer's playbook.
-This course has been drawn by a team that has conducted hundreds of technical interviews at Google and Flipkart.
-What's Covered:
-Pointers: Memory layout of pointers and variables, pointer arithmetic, arrays, pointers to pointers, pointers to structures, argument passing to functions, pointer reassignment and modification - complete with visuals to help you conceptualize how things work.
-Strings: Strings, Character pointers, character arrays, null termination of strings, string.h function implementations with detailed explanations.
-Linked lists: Visualization, traversal, creating or deleting nodes, sorted merge, reversing a linked list and many many problems and solutions, doubly linked lists.
-Bit Manipulation: Work with bits and bit operations.
-Sorting and searching algorithms: Visualize how common sorting and searching algorithms work and the speed and efficiency of those algorithms.
-Recursion: Master recursion with lots of practice! 8 common and uncommon recursive problems explained. Binary search, finding all subsets of a subset, finding all anagrams of a word, the infamous 8 Queens problem, executing dependent tasks, finding a path through a maze, implementing PaintFill, comparing two binary trees.
-Data Structures: Understand queues, stacks, heaps, binary trees and graphs in detail along with common operations and their complexity. Includes code for every data structure along with solved interview problems based on these data structures.
-Step-by-step solutions to dozens of common programming problems: Palindromes, Game of Life, Sudoku Validator, Breaking a Document into Chunks, Run Length Encoding, Points within a distance are some of the problems solved and explained.
-What are the requirements?
-This course requires some basic understanding of a programming language, preferably C. Some solutions are in Java, though Java is not a requirement.</span>
-</p>
-<h4 class="sm black bold">Goal of Course</h4>
-<p>
-<span id="ContentPlaceHolder1_lblGoalOfCourse">Know how to approach and prepare for coding interviews.
-Understand pointer concepts and memory management at a very deep and fundamental level.
-Tackle a wide variety of linked list problems and know how to get started when asked linked list questions as a part of interviews.
-Tackle a wide variety of general pointer and string problems and know how to answer questions on them during interviews.
-Tackle a wide variety of general programming problems which involve just plain logic, no standard algorithms or data structures, these help you get the details right!</span>
-</p>
-</div>
-<!--about-course-->
-<div class="tab-pane fade" id="about-course">
-<h4 class="sm black bold">In Brief</h4>
-<p>
-<span id="ContentPlaceHolder1_lblIntroduction">Setting up for our Introduction to HTML course is easy.</span>
-</p>
-<h4 class="sm black bold">Instructions</h4>
-<p>
-<span class="instructions" id="ContentPlaceHolder1_lblDescription"><strong>Operating System Requirements</strong><br>
-You can use any modern operating system in this class.<br>
-
-<strong>To set up your computer for HTML training, all you need are:</strong><br>
-
-<ol class="instru-list">
-  <li>Visual Studio Code (Download, Install, and Set up)
-While you may use a different editor or IDE, Visual Studio Code is an excellent IDE to learn to code on. It provides a nice balance of power and simplicity and it is available on Windows and Mac. Click here to learn how to open HTML files in Google Chrome from Visual Studio Code.</li>
-<li>A Web browser (The latest version of Chrome, Firefox, Edge, or Safari)</li>
-<li>The HTML Class Files
-  <ol>
-<li>Download the class files.</li>
-<li>After downloading the class files, create a directory on your hard drive named "Webeducation" that can be found easily.</li>
-    <ol>
-<li>On Windows it is recommended the new folder have a path of C:\Webeducation.</li>
-<li>On Mac OS X a good location for the new folder would be within a Webeducation folder in your Documents directory.</li>    </ol>
-<li>Extract the files to the folder you just created.</li>
-  </ol>
-</li>
+<span id="ContentPlaceHolder1_lblDescription" class="content-space-header">We provide a full cycle of custom web development services including:
+<br>
+<br>
+<i class="fa fa-chevron-right"><span class="content-space">Generation/brainstorming of web solution vision and requirements</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space" >Architecture, security, web and user experience design</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space" >Solution implementation and QA under the most popular platforms & browsers</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space" >Migration from desktop to cloud-native web applications</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space" >3rd level maintenance</span></i><br>
+<br><br>
 </span>
 </p>
 
+</div>
+<!--about-course-->
+<div class="tab-pane fade" id="about-course">
 
+<h4 class="sm black bold">Goal of Course</h4>
+<p>
+<i class="fa fa-chevron-right"><span class="content-space">Including JavaScript in a Web page</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using the Document Object Model (DOM) to access the HTML elements on the page dynamically</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using JavaScript objects effectively, including the window object and the navigator object</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Creating and using variables</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using event handlers to handle user-triggered events</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using regular expressions with string methods to perform basic validation</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Working with primitive data types</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Passing arguments to a function</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using conditional constructs and loops</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Debugging JavaScript code</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using Geolocation and Web Storage JavaScript APIs</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Working with JSON objects</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">Using Ajax to make asynchronous calls to a Web server</i></span><br>
+</p>
+<h4 class="sm black bold">Prerequisites</h4>
+<p>
+<i class="fa fa-chevron-right"><span class="content-space">HTML</span></i><br>
+<i class="fa fa-chevron-right"><span class="content-space">CSS</span></i><br>
+</p>
 </div>
 <!---->
 
@@ -445,7 +426,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 <input type="hidden" name="learning_type_id" value="1" />
 
 <input type="hidden" name="id" value="19215" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
+<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling"><a href="javascript:void(0)" class=" get-notify-link" data-toggle="modal" data-target="#drop-a-query-modal" style="text-decoration:none;color:#fff">enroll now</a></button>
                         </div>
                     </form>                </div>
                 <div class="collapse hidden-xs schedule-1 schedule-border">
@@ -483,7 +464,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 </div>
                                 <div class="xs-caption">
                                     <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
+                                        Online Classroom         </div>
                                     <div>(Instructor Led)</div>
                                 </div>
                             </div>
@@ -493,8 +474,8 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 <div class="visible-xs xs-title">
                                     <i class="icon icon-course-captions icon-date "></i> Timing
                                 </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
+                                <div class="xs-caption">  
+                                 <div class="form-group inner-addon right-addon">
                                             <i class="fa fa-angle-down input-icon"></i>
                                             <select name="virtual_session_duration_timing_id" class="form-control icon-down">
 <option value="" selected="selected">Select Batch</option>
@@ -525,7 +506,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 <input type="hidden" name="learning_type_id" value="1" />
 
 <input type="hidden" name="id" value="14913" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
+<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" ><a href="javascript:void(0)" class=" get-notify-link" data-toggle="modal" data-target="#drop-a-query-modal" style="text-decoration:none;color:#fff">enroll now</a></button>
                         </div>
                     </form>                </div>
                 
@@ -557,7 +538,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 </div>
                                 <div class="xs-caption">
                                     <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
+                                        Class Classroom                                    </div>
                                     <div>(Instructor Led)</div>
                                 </div>
                             </div>
@@ -567,8 +548,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 <div class="visible-xs xs-title">
                                     <i class="icon icon-course-captions icon-date "></i> Timing
                                 </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
+                                <div class="xs-caption">   <div class="form-group inner-addon right-addon">
                                             <i class="fa fa-angle-down input-icon"></i>
                                             <select name="virtual_session_duration_timing_id" class="form-control icon-down">
 <option value="" selected="selected">Select Batch</option>
@@ -599,7 +579,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 <input type="hidden" name="learning_type_id" value="1" />
 
 <input type="hidden" name="id" value="19216" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
+<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" ><a href="javascript:void(0)" class=" get-notify-link" data-toggle="modal" data-target="#drop-a-query-modal" style="text-decoration:none;color:#fff">enroll now</a></button>
                         </div>
                     </form>                </div>
                 
@@ -630,7 +610,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 </div>
                                 <div class="xs-caption">
                                     <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
+                                        One to One Sessions                                   </div>
                                     <div>(Instructor Led)</div>
                                 </div>
                             </div>
@@ -640,8 +620,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 <div class="visible-xs xs-title">
                                     <i class="icon icon-course-captions icon-date "></i> Timing
                                 </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
+                                <div class="xs-caption">    <div class="form-group inner-addon right-addon">
                                             <i class="fa fa-angle-down input-icon"></i>
                                             <select name="virtual_session_duration_timing_id" class="form-control icon-down">
 <option value="" selected="selected">Select Batch</option>
@@ -672,7 +651,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 <input type="hidden" name="learning_type_id" value="1" />
 
 <input type="hidden" name="id" value="14914" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
+<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" ><a href="javascript:void(0)" class=" get-notify-link" data-toggle="modal" data-target="#drop-a-query-modal" style="text-decoration:none;color:#fff">enroll now<</a></button>
                         </div>
                     </form>                </div>
                 
@@ -704,7 +683,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 </div>
                                 <div class="xs-caption">
                                     <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
+                                       Online Weekend Batches                                    </div>
                                     <div>(Instructor Led)</div>
                                 </div>
                             </div>
@@ -714,8 +693,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 <div class="visible-xs xs-title">
                                     <i class="icon icon-course-captions icon-date "></i> Timing
                                 </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
+                                <div class="xs-caption">                                                                                                              <div class="form-group inner-addon right-addon">
                                             <i class="fa fa-angle-down input-icon"></i>
                                             <select name="virtual_session_duration_timing_id" class="form-control icon-down">
 <option value="" selected="selected">Select Batch</option>
@@ -725,7 +703,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 <option value="4">07:00 PM - 09:00 PM</option>
 </select>
                                         </div>
-                                                                        <div>2 Hours/Day</div>
+                                           <div>2 Hours/Day</div>
                                 </div>
                             </div>
                         </div>
@@ -746,878 +724,12 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 <input type="hidden" name="learning_type_id" value="1" />
 
 <input type="hidden" name="id" value="19217" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
+<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" ><a href="javascript:void(0)" class=" get-notify-link" data-toggle="modal" data-target="#drop-a-query-modal" style="text-decoration:none;color:#fff">enroll now</a></button>
                         </div>
                     </form>                </div>
               
             </div>
-                                                <div class="schedule-course clearfix">
-                <div class="schedule-course-summary clearfix border-color-1">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date"></i> Date
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="dates">
-                                        May 05 - Jun 03 <!--( Days)-->
-                                    </div>
-                                    <div class="batch">
-                                        (Week End Batch)
-                                    </div>
-                                                                        
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Delivery type
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
-                                    <div>(Instructor Led)</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-23p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Timing
-                                </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
-                                            <i class="fa fa-angle-down input-icon"></i>
-                                            <select name="virtual_session_duration_timing_id" class="form-control icon-down">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                        </div>
-                                                                        <div>4 Hours/Day</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-17p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Price
-                                </div>
-                                <div class="xs-caption">
-                                                                            <strike>INR 41999</strike>
-                                        <span class="schedule-price">INR 34999</span>
-                                        <span class="valid-till">Valid till 20 Apr</span>
-                                                                    </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14915" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-             
-            </div>
-                                                <div class="schedule-course clearfix">
-                <div class="schedule-course-summary clearfix border-color-1">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date"></i> Date
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="dates">
-                                        May 14 - Jun 08 <!--( Days)-->
-                                    </div>
-                                    <div class="batch">
-                                        (Week Day Batch)
-                                    </div>
-                                                                       
-                                </div>
-                               
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Delivery type
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
-                                    <div>(Instructor Led)</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-23p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Timing
-                                </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
-                                            <i class="fa fa-angle-down input-icon"></i>
-                                            <select name="virtual_session_duration_timing_id" class="form-control icon-down">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                        </div>
-                                                                        <div>2 Hours/Day</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-17p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Price
-                                </div>
-                                <div class="xs-caption">
-                                                                            <strike>INR 41999</strike>
-                                        <span class="schedule-price">INR 34999</span>
-                                        <span class="valid-till">Valid till 29 Apr</span>
-                                                                    </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19218" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course clearfix">
-                <div class="schedule-course-summary clearfix border-color-1">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date"></i> Date
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="dates">
-                                        May 19 - Jun 17 <!--( Days)-->
-                                    </div>
-                                    <div class="batch">
-                                        (Week End Batch)
-                                    </div>
-                                                                        
-                                </div>
-                               
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Delivery type
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
-                                    <div>(Instructor Led)</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-23p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Timing
-                                </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
-                                            <i class="fa fa-angle-down input-icon"></i>
-                                            <select name="virtual_session_duration_timing_id" class="form-control icon-down">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                        </div>
-                                                                        <div>4 Hours/Day</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-17p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Price
-                                </div>
-                                <div class="xs-caption">
-                                                                            <strike>INR 41999</strike>
-                                        <span class="schedule-price">INR 34999</span>
-                                        <span class="valid-till">Valid till 04 May</span>
-                                                                    </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14916" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course clearfix">
-                <div class="schedule-course-summary clearfix border-color-1">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date"></i> Date
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="dates">
-                                        May 28 - Jun 22 <!--( Days)-->
-                                    </div>
-                                    <div class="batch">
-                                        (Week Day Batch)
-                                    </div>
-                                                                        
-                                </div>
-                               
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Delivery type
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
-                                    <div>(Instructor Led)</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-23p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Timing
-                                </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
-                                            <i class="fa fa-angle-down input-icon"></i>
-                                            <select name="virtual_session_duration_timing_id" class="form-control icon-down">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                        </div>
-                                                                        <div>2 Hours/Day</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-17p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Price
-                                </div>
-                                <div class="xs-caption">
-                                                                            <strike>INR 41999</strike>
-                                        <span class="schedule-price">INR 34999</span>
-                                        <span class="valid-till">Valid till 13 May</span>
-                                                                    </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19219" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course clearfix">
-                <div class="schedule-course-summary clearfix border-color-1">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date"></i> Date
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="dates">
-                                        Jun 03 - Jul 07 <!--( Days)-->
-                                    </div>
-                                    <div class="batch">
-                                        (Week End Batch)
-                                    </div>
-                                                                        
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Delivery type
-                                </div>
-                                <div class="xs-caption">
-                                    <div class="schedule-delivery-type">
-                                        Online Classroom                                    </div>
-                                    <div>(Instructor Led)</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-23p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Timing
-                                </div>
-                                <div class="xs-caption">
-                                                                                                                <div class="form-group inner-addon right-addon">
-                                            <i class="fa fa-angle-down input-icon"></i>
-                                            <select name="virtual_session_duration_timing_id" class="form-control icon-down">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                        </div>
-                                                                        <div>4 Hours/Day</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list width-17p">
-                            <div class="clearfix">
-                                <div class="visible-xs xs-title">
-                                    <i class="icon icon-course-captions icon-date "></i> Price
-                                </div>
-                                <div class="xs-caption">
-                                                                            <strike>INR 41999</strike>
-                                        <span class="schedule-price">INR 34999</span>
-                                        <span class="valid-till">Valid till 19 May</span>
-                                                                    </div>
-                            </div>
-                        </div>
-                        <div class="schedule-course-list">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14917" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-               
-            </div>
-                    
-<div class="view-more-schedules-block">
-            <a href="javascript:void(0)" class="view-more-schedules bg-color-grey text-center p-10 border-color-1 block color-4" data-type="desktop"> View More Schedules </a>
-        <div class="cant-find-schedule mr-t-20">
-        Can't find convenient schedule? <a href="javascript:void(0)" class="color-3 get-notify-link" data-toggle="modal" data-target="#get-notified-modal" >Let Us Know</a>
-    </div>
-</div>        </div>
-        <div class="col-xs-12 schedule-course-list schedule-list-xs visible-xs schedule-mobile-course-list">
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                
-                                               Apr 02 - Apr 27 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">2 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <span class="schedule-price bold-700">INR 41999</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19215" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-               
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    Apr 07 - May 06 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">4 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 13 Feb</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14913" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-               
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    Apr 16 - May 11 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">2 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 16 Nov</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19216" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    Apr 21 - May 20 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">4 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 13 Feb</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14914" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-               
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    Apr 30 - May 25 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">2 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 16 Nov</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19217" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-               
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    May 05 - Jun 03 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">4 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 13 Feb</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14915" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    May 14 - Jun 08 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">2 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 16 Nov</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19218" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    May 19 - Jun 17 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">4 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 13 Feb</span>
-                                                               
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14916" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-                
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    May 28 - Jun 22 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="1">07:00 AM - 09:00 AM</option>
-<option value="2">10:00 AM - 12:00 PM</option>
-<option value="3">03:00 PM - 05:00 PM</option>
-<option value="4">07:00 PM - 09:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">2 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 16 Nov</span>
-                                                                
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="19219" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-              
-            </div>
-                                                <div class="schedule-course">
-                <div class="row">
-                    <form action="#" class="enroll-form" method="post" accept-charset="utf-8">
-                        <div class="col-xs-7 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="schedule-delivery-type bold-700">
-                                    Online Classroom                                </div>
-                                <div class="color-5">
-                                    (Instructor Led)
-                                </div>
-                                                            </div>
-                        </div>
-                        <div class="col-xs-5 pd-b-30">
-                            <div class="xs-caption">
-                                <div class="dates bold-700">
-                                    Jun 03 - Jul 07 <!--( Days)-->
-                                </div>
-                                                                                                    <div class="form-group inner-addon right-addon">
-                                        <i class="fa fa-angle-down input-icon"></i>
-                                        <select name="virtual_session_duration_timing_id" class="form-control icon-down color-5">
-<option value="" selected="selected">Select Batch</option>
-<option value="13">08:00 AM - 12:00 PM</option>
-<option value="14">10:00 AM - 02:00 PM</option>
-<option value="15">02:00 PM - 06:00 PM</option>
-<option value="16">06:00 PM - 10:00 PM</option>
-</select>
-                                    </div>
-                                                                <div class="color-5">4 Hours/Day</div>
-                            </div>
-                        </div>
-                        <div class="col-xs-7">
-                            <div class="xs-caption">
-                                                                    <strike class="color-5">INR 41999</strike>
-                                    <span class="schedule-price bold-700">INR 34999</span>
-                                    <span class="valid-till color-5">Valid till 13 Feb</span>
-                                                               
-                            </div>
-                        </div>
-                        <div class="col-xs-5">
-                            
-<input type="hidden" name="learning_type_id" value="1" />
-
-<input type="hidden" name="id" value="14917" />
-<button name="enroll" type="submit" class="btn btn-success btn-medium waves-effect waves-light text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enrolling" >enroll now</button>
-                        </div>
-                    </form>                </div>
-               
-            </div>
-                    
-<div class="view-more-schedules-block">
-            <a href="javascript:void(0)" class="view-more-schedules bg-color-grey text-center p-10 border-color-1 block color-4" data-type="mobile"> View More Schedules </a>
-        <div class="cant-find-schedule mr-t-20">
-        Can't find convenient schedule? <a href="javascript:void(0)" class="color-3 get-notify-link" data-toggle="modal" data-target="#get-notified-modal" >Let Us Know</a>
-    </div>
-</div>        </div>
-    </div>
-        </div>
-    </div>
+                   
 </section>
 
 <!--more details table ends-->
@@ -1663,7 +775,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                         <select name="course_id" class="form-control">
 <option value="">Select Course</option>
 <option value="1">iOS Development</option>
-<option value="150">Certified Scrum Master Training (CSM®)</option>
+<option value="150">Certified Scrum Master Training (CSM�)</option>
 <option value="2">Android Development</option>
 <option value="3">HTML5 and CSS3</option>
 <option value="4">PhoneGap</option>
@@ -1870,710 +982,8 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
             </div>
         </div>
     </div>
-</div><div class="modal fade request-popup" id="request-a-call-back-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body no-padding">
-                <button type="button" class="close position-absolute right-top" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <div class="bg-white clearfix">
-                    <h2 class="section-heading text-center"> Request A Call Back </h2>
-                    <p class="mr-b-22 color-5 fs14 text-center">
-                        Please fill in the details and primebit Course Advisor will get back within 24 hrs to help you up skill your team
-                    </p>
-                    <form action="#" method="post" class="form-list requestACallBackForm">
-                        <input type="hidden" name="page" value="#">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" maxlength="100" name="first_name" required="">
-                                    <i class="icons icons-contact icon-fullname"></i>
-                                    <label>First name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" maxlength="100" name="last_name" required="">
-                                    <i class="icons icons-contact icon-fullname"></i>
-                                    <label>Last name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" maxlength="100" name="email" required="">
-                                    <i class="icons icons-contact icon-email"></i>
-                                    <label>E-mail</label>
-                                </div>
-                                <div class="form-group">
-                                    <div class="right-inner-addon">
-                                        <i class="icons select-icon"></i>
-                                        <select name="course_id" class="form-control">
-<option value="" selected="selected">Select Course</option>
-<option value="1">iOS Development</option>
-<option value="150">Certified Scrum Master Training (CSM®)</option>
-<option value="2">Android Development</option>
-<option value="3">HTML5 and CSS3</option>
-<option value="4">PhoneGap</option>
-<option value="33">Big Data Analytics using Hadoop</option>
-<option value="5">MEAN Stack Development</option>
-<option value="6">MongoDB</option>
-<option value="7">Angular JS</option>
-<option value="35">Angular 2.0</option>
-<option value="39">Xamarin - Mobile App Development</option>
-<option value="41">Meteor JS</option>
-<option value="8">Cassandra</option>
-<option value="34">Apache Spark and Scala</option>
-<option value="37">Backbone JS</option>
-<option value="38">React JS</option>
-<option value="9">Frontend Web Development</option>
-<option value="10">Advanced JavaScript and AJAX</option>
-<option value="11">jQuery</option>
-<option value="12">NodeJS</option>
-<option value="26">PHP, MYSQL and CodeIgniter</option>
-<option value="13">Spring Framework</option>
-<option value="14">Ruby on Rails</option>
-<option value="15">Python</option>
-<option value="16">Python, Django and MySQL</option>
-<option value="36">JavaScript Development</option>
-<option value="40">ElasticSearch</option>
-<option value="18">Django</option>
-<option value="19">Data Analytics with R</option>
-<option value="20">App Store Optimization</option>
-<option value="21">Search Engine Optimization</option>
-<option value="42">Machine Learning with Python</option>
-<option value="61">Redis</option>
-<option value="23">Digital Marketing</option>
-<option value="27">DevOps Foundation Certification</option>
-<option value="28">Data Visualization with Tableau</option>
-<option value="43">IT Automation With Saltstack</option>
-<option value="29">Social Media Marketing</option>
-<option value="44">Puppet for Application Deployment</option>
-<option value="30">Advanced MS Excel 2013</option>
-<option value="31">Testing with Selenium</option>
-<option value="46">Chef</option>
-<option value="63">Docker Essentials and Administration</option>
-<option value="32">UI/UX Design</option>
-<option value="47">Mastering Openstack</option>
-<option value="48">PHP 101</option>
-<option value="62">Scala 101</option>
-<option value="49">Ruby 101</option>
-<option value="50">Java 101</option>
-<option value="51">Perl 101</option>
-<option value="52">Ruby Deep Dive</option>
-<option value="54">Perl Deep Dive</option>
-<option value="55">C#</option>
-<option value="56">Python Deep Dive</option>
-<option value="57">F#</option>
-<option value="53">PHP Deep Dive</option>
-<option value="58">Akka With Scala</option>
-<option value="59">Akka With Java</option>
-<option value="60">Java Deep Dive</option>
-<option value="64">CouchDB</option>
-<option value="65">Docker for Developers</option>
-<option value="67">ExtJS</option>
-<option value="66">Continuous integration with Jenkins</option>
-<option value="72">MariaDB Administration</option>
-<option value="73">MariaDB For Developers</option>
-<option value="74">Apache Storm</option>
-<option value="75">Apache Kafka</option>
-<option value="76">Machine learning with Apache Mahout</option>
-<option value="77">SequoiaDB</option>
-<option value="78">HBase</option>
-<option value="79">Comprehensive Pig</option>
-<option value="80">MongoDB Administration</option>
-<option value="81">Mobile Ui Design Essentials And Ui Design Patterns</option>
-<option value="82">Talend for Big Data</option>
-<option value="69">ASP.NET using C#</option>
-<option value="70">Advanced Scala</option>
-<option value="71">IBM Bluemix for Cloud Apps Development</option>
-<option value="83">Comprehensive Hive</option>
-<option value="84">Comprehensive MapReduce</option>
-<option value="85">MySQL</option>
-<option value="86">PostgreSQL</option>
-<option value="87">ASP.NET</option>
-<option value="155">Bourbon Neat, Bitters and Refills</option>
-<option value="156">Internet of Things(IoT) 101</option>
-<option value="88">Data Visualization with QlikView</option>
-<option value="89">EmberJS</option>
-<option value="90">Ionic Framework</option>
-<option value="91">NativeScript for Mobile App Development</option>
-<option value="92">React Native</option>
-<option value="93">SQL Server Administration</option>
-<option value="94">Machine Learning using R</option>
-<option value="95">Automation testing using TestComplete</option>
-<option value="96">Sencha Touch</option>
-<option value="97">Silk Test</option>
-<option value="98">Functional testing using Ranorex</option>
-<option value="99">Master Neo4J Graph Database</option>
-<option value="100">Testing with JUnit</option>
-<option value="101">LoadRunner</option>
-<option value="102">TestNG</option>
-<option value="107">Master Groovy</option>
-<option value="103">WinRunner</option>
-<option value="108">Master R Programming</option>
-<option value="104">OpenGL</option>
-<option value="109">Master SAS</option>
-<option value="116">Groovy on Grails</option>
-<option value="105">Master Swift</option>
-<option value="110">Microsoft Power BI</option>
-<option value="117">Foundation</option>
-<option value="106">Mobile Application Testing</option>
-<option value="111">Teradata</option>
-<option value="118">Sisense BI</option>
-<option value="112">TIBCO Spotfire</option>
-<option value="119">PHP Development with the Laravel Framework</option>
-<option value="124">Cucumber</option>
-<option value="113">Bootstrap</option>
-<option value="120">Kendo UI</option>
-<option value="123">Master TurboGears</option>
-<option value="125">Drupal</option>
-<option value="114">Aurelia</option>
-<option value="121">Master GWT</option>
-<option value="126">Cake PHP</option>
-<option value="115">Adobe Flex</option>
-<option value="122">WebRTC</option>
-<option value="127">VBScript</option>
-<option value="128">Microsoft SharePoint 2013</option>
-<option value="129">Apache Ambari</option>
-<option value="130">Business Case Writing</option>
-<option value="131">Certified Scrum Product Owner(CSPO)</option>
-<option value="132">Leading SAFe 4.0</option>
-<option value="133">Change Management</option>
-<option value="134">Data Warehousing and BI</option>
-<option value="135">Agile and Scrum</option>
-<option value="136">ASP.NET MVC</option>
-<option value="137">Concordion</option>
-<option value="138">Pyramid</option>
-<option value="139">Angular Material</option>
-<option value="140">Microsoft Azure Design Config And Implementation</option>
-<option value="141">PouchDB</option>
-<option value="151">Angular 4</option>
-<option value="142">Flask</option>
-<option value="160">Certified Agile Service Manager</option>
-<option value="143">Java Design Patterns and UML</option>
-<option value="157">DevOps Leader</option>
-<option value="159">ELM Training</option>
-<option value="144">Design Patterns Principles And Best Practices for .NET</option>
-<option value="161">VueJS </option>
-<option value="145">Zend</option>
-<option value="158">Certified Agile Process Owner</option>
-<option value="162">Professional Scrum Master(PSM)</option>
-<option value="146">Master DB2</option>
-<option value="163">Data science with R Foundation</option>
-<option value="147">Design Patterns Principles and Best Practices For Java/J2EE</option>
-<option value="164">Data Science with Python-Foundation</option>
-<option value="148">Yii PHP</option>
-<option value="165">Data Science with Python</option>
-<option value="149">BOARD BI Platform</option>
-<option value="166">Team Foundation Server Administration 2017</option>
-<option value="152">Continuous Delivery Architecture</option>
-<option value="153">DevSecOps Engineering</option>
-<option value="154">DevOps Test Engineering</option>
-<option value="22">Email Marketing</option>
-<option value="24">Big Data and Hadoop Developer</option>
-<option value="25">Hadoop Administration</option>
-<option value="168">Blockchain Training</option>
-</select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-3">
-                                            <div class="form-group">
-                                                <div class="right-inner-addon">
-                                                    <i class="icons select-icon"></i>
-                                                    <select name="isd" class="form-control isd-code">
-</select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-9 col-sm-9">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || (event.keyCode == 8 || event.keyCode == 46
-                                                    || event.keyCode == 37 || event.keyCode == 39)' maxlength="30" name="phone" required="">
-                                                <i class="icons icons-contact icon-phone"></i>
-                                                <label>Phone</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <textarea placeholder="Message" rows="4" maxlength="100" class="form-control" name="query" required=""></textarea>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-success waves-effect waves-light" type="submit" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Submitting">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><div class="modal fade request-popup" id="request-a-custom-quote-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body no-padding">
-                <button type="button" class="close position-absolute right-top" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <div class="bg-white clearfix">
-                    <h2 class="section-heading text-center">Request a Quote</h2>
-                    <p class="mr-b-22 color-5 fs14 text-center">
-                        Please fill in the details and primebit Course Advisor will get back within 24 hrs to help you up skill your team
-                    </p>
-                    <form action="#" method="post" class="form-list" name="requestAQuoteForm" id="requestAQuoteForm">
-                        <input type="hidden" name="page" value="#">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" name="first_name" maxlength="100" class="form-control" required="">
-                                    <i class="icons icons-contact icon-fullname"></i>
-                                    <label>First name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" name="last_name" maxlength="100" class="form-control" required="">
-                                    <i class="icons icons-contact icon-fullname"></i>
-                                    <label>Last name</label>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" name="company" maxlength="100" class="form-control" required="">
-                                    <i class="fa fa-building-o color-5 icons-contact"></i>
-                                    <label>Company</label>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" name="email" maxlength="100" class="form-control" required="">
-                                    <i class="icons icons-contact icon-email"></i>
-                                    <label>E-mail</label>
-                                </div>
-                                <div class="form-group">
-                                    <div class="right-inner-addon">
-                                        <i class="icons select-icon"></i>
-                                        <select name="course_id" class="form-control">
-<option value="">Select Course</option>
-<option value="1">iOS Development</option>
-<option value="150">Certified Scrum Master Training (CSM®)</option>
-<option value="2">Android Development</option>
-<option value="3">HTML5 and CSS3</option>
-<option value="4">PhoneGap</option>
-<option value="33">Big Data Analytics using Hadoop</option>
-<option value="5" selected="selected">MEAN Stack Development</option>
-<option value="6">MongoDB</option>
-<option value="7">Angular JS</option>
-<option value="35">Angular 2.0</option>
-<option value="39">Xamarin - Mobile App Development</option>
-<option value="41">Meteor JS</option>
-<option value="8">Cassandra</option>
-<option value="34">Apache Spark and Scala</option>
-<option value="37">Backbone JS</option>
-<option value="38">React JS</option>
-<option value="9">Frontend Web Development</option>
-<option value="10">Advanced JavaScript and AJAX</option>
-<option value="11">jQuery</option>
-<option value="12">NodeJS</option>
-<option value="26">PHP, MYSQL and CodeIgniter</option>
-<option value="13">Spring Framework</option>
-<option value="14">Ruby on Rails</option>
-<option value="15">Python</option>
-<option value="16">Python, Django and MySQL</option>
-<option value="36">JavaScript Development</option>
-<option value="40">ElasticSearch</option>
-<option value="18">Django</option>
-<option value="19">Data Analytics with R</option>
-<option value="20">App Store Optimization</option>
-<option value="21">Search Engine Optimization</option>
-<option value="42">Machine Learning with Python</option>
-<option value="61">Redis</option>
-<option value="23">Digital Marketing</option>
-<option value="27">DevOps Foundation Certification</option>
-<option value="28">Data Visualization with Tableau</option>
-<option value="43">IT Automation With Saltstack</option>
-<option value="29">Social Media Marketing</option>
-<option value="44">Puppet for Application Deployment</option>
-<option value="30">Advanced MS Excel 2013</option>
-<option value="31">Testing with Selenium</option>
-<option value="46">Chef</option>
-<option value="63">Docker Essentials and Administration</option>
-<option value="32">UI/UX Design</option>
-<option value="47">Mastering Openstack</option>
-<option value="48">PHP 101</option>
-<option value="62">Scala 101</option>
-<option value="49">Ruby 101</option>
-<option value="50">Java 101</option>
-<option value="51">Perl 101</option>
-<option value="52">Ruby Deep Dive</option>
-<option value="54">Perl Deep Dive</option>
-<option value="55">C#</option>
-<option value="56">Python Deep Dive</option>
-<option value="57">F#</option>
-<option value="53">PHP Deep Dive</option>
-<option value="58">Akka With Scala</option>
-<option value="59">Akka With Java</option>
-<option value="60">Java Deep Dive</option>
-<option value="64">CouchDB</option>
-<option value="65">Docker for Developers</option>
-<option value="67">ExtJS</option>
-<option value="66">Continuous integration with Jenkins</option>
-<option value="72">MariaDB Administration</option>
-<option value="73">MariaDB For Developers</option>
-<option value="74">Apache Storm</option>
-<option value="75">Apache Kafka</option>
-<option value="76">Machine learning with Apache Mahout</option>
-<option value="77">SequoiaDB</option>
-<option value="78">HBase</option>
-<option value="79">Comprehensive Pig</option>
-<option value="80">MongoDB Administration</option>
-<option value="81">Mobile Ui Design Essentials And Ui Design Patterns</option>
-<option value="82">Talend for Big Data</option>
-<option value="69">ASP.NET using C#</option>
-<option value="70">Advanced Scala</option>
-<option value="71">IBM Bluemix for Cloud Apps Development</option>
-<option value="83">Comprehensive Hive</option>
-<option value="84">Comprehensive MapReduce</option>
-<option value="85">MySQL</option>
-<option value="86">PostgreSQL</option>
-<option value="87">ASP.NET</option>
-<option value="155">Bourbon Neat, Bitters and Refills</option>
-<option value="156">Internet of Things(IoT) 101</option>
-<option value="88">Data Visualization with QlikView</option>
-<option value="89">EmberJS</option>
-<option value="90">Ionic Framework</option>
-<option value="91">NativeScript for Mobile App Development</option>
-<option value="92">React Native</option>
-<option value="93">SQL Server Administration</option>
-<option value="94">Machine Learning using R</option>
-<option value="95">Automation testing using TestComplete</option>
-<option value="96">Sencha Touch</option>
-<option value="97">Silk Test</option>
-<option value="98">Functional testing using Ranorex</option>
-<option value="99">Master Neo4J Graph Database</option>
-<option value="100">Testing with JUnit</option>
-<option value="101">LoadRunner</option>
-<option value="102">TestNG</option>
-<option value="107">Master Groovy</option>
-<option value="103">WinRunner</option>
-<option value="108">Master R Programming</option>
-<option value="104">OpenGL</option>
-<option value="109">Master SAS</option>
-<option value="116">Groovy on Grails</option>
-<option value="105">Master Swift</option>
-<option value="110">Microsoft Power BI</option>
-<option value="117">Foundation</option>
-<option value="106">Mobile Application Testing</option>
-<option value="111">Teradata</option>
-<option value="118">Sisense BI</option>
-<option value="112">TIBCO Spotfire</option>
-<option value="119">PHP Development with the Laravel Framework</option>
-<option value="124">Cucumber</option>
-<option value="113">Bootstrap</option>
-<option value="120">Kendo UI</option>
-<option value="123">Master TurboGears</option>
-<option value="125">Drupal</option>
-<option value="114">Aurelia</option>
-<option value="121">Master GWT</option>
-<option value="126">Cake PHP</option>
-<option value="115">Adobe Flex</option>
-<option value="122">WebRTC</option>
-<option value="127">VBScript</option>
-<option value="128">Microsoft SharePoint 2013</option>
-<option value="129">Apache Ambari</option>
-<option value="130">Business Case Writing</option>
-<option value="131">Certified Scrum Product Owner(CSPO)</option>
-<option value="132">Leading SAFe 4.0</option>
-<option value="133">Change Management</option>
-<option value="134">Data Warehousing and BI</option>
-<option value="135">Agile and Scrum</option>
-<option value="136">ASP.NET MVC</option>
-<option value="137">Concordion</option>
-<option value="138">Pyramid</option>
-<option value="139">Angular Material</option>
-<option value="140">Microsoft Azure Design Config And Implementation</option>
-<option value="141">PouchDB</option>
-<option value="151">Angular 4</option>
-<option value="142">Flask</option>
-<option value="160">Certified Agile Service Manager</option>
-<option value="143">Java Design Patterns and UML</option>
-<option value="157">DevOps Leader</option>
-<option value="159">ELM Training</option>
-<option value="144">Design Patterns Principles And Best Practices for .NET</option>
-<option value="161">VueJS </option>
-<option value="145">Zend</option>
-<option value="158">Certified Agile Process Owner</option>
-<option value="162">Professional Scrum Master(PSM)</option>
-<option value="146">Master DB2</option>
-<option value="163">Data science with R Foundation</option>
-<option value="147">Design Patterns Principles and Best Practices For Java/J2EE</option>
-<option value="164">Data Science with Python-Foundation</option>
-<option value="148">Yii PHP</option>
-<option value="165">Data Science with Python</option>
-<option value="149">BOARD BI Platform</option>
-<option value="166">Team Foundation Server Administration 2017</option>
-<option value="152">Continuous Delivery Architecture</option>
-<option value="153">DevSecOps Engineering</option>
-<option value="154">DevOps Test Engineering</option>
-<option value="22">Email Marketing</option>
-<option value="24">Big Data and Hadoop Developer</option>
-<option value="25">Hadoop Administration</option>
-<option value="168">Blockchain Training</option>
-</select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-3">
-                                        <div class="form-group">
-                                            <div class="right-inner-addon">
-                                                <i class="icons select-icon"></i>
-                                                <select name="isd" class="form-control isd-code">
-</select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-9 col-sm-9">
-                                        <div class="form-group">
-                                            <input type="text" name="phone" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || (event.keyCode == 8 || event.keyCode == 46
-                                                    || event.keyCode == 37 || event.keyCode == 39)' maxlength="30" class="form-control" required="">
-                                            <i class="icons icons-contact icon-phone"></i>
-                                            <label>Phone</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <textarea placeholder="Message" name="query" maxlength="500" rows="4" class="form-control"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <span class="spam-text">* we take data security very seriously. Hence, we will ensure that the information mentioned by you will be used only to solve your query.</span>
-                                <button type="submit" class="btn btn-success waves-effect waves-light pull-right no-margin-top" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Submitting">
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                        <a href="#login" aria-controls="login" role="tab" data-toggle="tab"> <div class="login-text"><i class="icons icon-login"></i> Login</div><div class="forgot-password-text hide" ><i class="icons icon-password"></i> Forgot Password</div> </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#register" aria-controls="register" role="tab" data-toggle="tab"> <i class="icons icon-register"></i> Register </a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade in active" id="login">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="registration-forms">
-                                    <div class="login-registration-forms">
-                                        <form action="#" method="post" id="loginForm" class="form-list">
-                                            <div class="form-group">
-                                                <input type="text" name="email" value="" class="form-control" required="required"  />
-                                                <i class="icons icons-contact icon-email"></i>
-                                                <label>E-mail</label>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="password" name="password" value="" class="form-control" required="required"  />
-                                                <i class="icons icons-contact icon-password"></i>
-                                                <label>Password</label>
-                                            </div>
-                                            <button name="login" type="submit" class="btn btn-success btn-block waves-light waves-effect text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> logging in" >Login</button>
-                                            <a href="javascript:void(0);" class="forgot-password">Forgot password?</a>
-                                        </form>
-                                    </div>
-                                    <div class="forgot-password-forms hide">
-                                        <form action="#" method="post" class="form-list" id="forgotPasswordForm">
-                                            <div class="form-group">
-                                                <input type="email" name="email" id="email" required class="form-control">
-                                                <i class="icons icons-contact icon-email"></i>
-                                                <label>E-mail</label>
-                                            </div>
-                                            <button name="Login" type="submit" class="btn btn-success btn-block waves-light waves-effect text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> submitting" >Submit</button>
-                                            <a href="javascript:void(0);" class="login-link">Login</a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="social-media-login text-uppercase">
-                                    <a href="#" class="btn btn-block btn-facebook waves-light waves-effect"><i class="icons icon-facebook"></i> Log In With Facebook</a><a href="#" class="btn btn-block btn-social btn-google"><i class="fa fa-google-plus"></i> Log In With Google+</a><a href="#" class="btn btn-block btn-linkedin waves-light waves-effect"><i class="icons icon-linkedin"></i> Login with linkedin</a>                                    <span class="wont-write">We do not post without your permission.</span>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="register">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="registration-forms">
-                                    <form action="#" method="post" id="registrationForm" class="form-list">
-                                        <div class="form-group">
-                                            <input type="text" name="first_name" value="" maxlength="100" class="form-control" required="required"  />
-                                            <i class="icons icons-contact icon-fullname"></i>
-                                            <label>First Name</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" name="last_name" value="" maxlength="100" class="form-control" required="required"  />
-                                            <i class="icons icons-contact icon-fullname"></i>
-                                            <label>Last Name</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" name="email" value="" maxlength="100" class="form-control" required="required"  />
-                                            <i class="icons icons-contact icon-email"></i>
-                                            <label>E-mail</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" name="password" value="" id="password" required="required" class="form-control" maxlength="20"  />
-                                            <i class="icons icons-contact icon-password"></i>
-                                            <label>Password</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="password" name="cpassword" value="" class="form-control" required="required" maxlength="20"  />
-                                            <i class="icons icons-contact icon-password"></i>
-                                            <label>Confirm Password</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" name="phone" value="" maxlength="30" onkeypress="return (event.charCode >= 48 && event.charCode <= 57) || (event.keyCode == 8 || event.keyCode == 46
-                                                    || event.keyCode == 37 || event.keyCode == 39)" class="form-control" required="required"  />
-                                            <i class="icons icons-contact icon-phone"></i>
-                                            <label>Phone</label>
-                                        </div>
-                                        <div class="checkbox checkbox-success">
-                                            <input checked id="is-subscription" class="styled" type="checkbox" name="is_subscription" value="1">
-                                            <label for="is-subscription">Subscribe to Newsletter </label>
-                                        </div>
-                                        <input type="hidden" name="page" value="#" />
-                                        <button name="register" type="submit" class="btn btn-success btn-block waves-light waves-effect text-uppercase" data-loading-text="<i class='fa fa-spinner fa-spin'></i> registering" >Register</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="social-media-login text-uppercase social-media-register">
-                                    <a href="#" class="btn btn-block btn-facebook waves-light waves-effect" data-href="#"><i class="icons icon-facebook"></i> Log In With Facebook</a><a href="#" class="btn btn-block btn-social btn-google" data-href="#"><i class="fa fa-google-plus"></i> Log In With Google+</a><a href="#" class="btn btn-block btn-linkedin waves-light waves-effect" data-href="#"><i class="icons icon-linkedin"></i> Login with linkedin</a>                                    <div class="checkbox checkbox-success">
-                                        <input checked id="is-subscription-social" class="styled" type="checkbox">
-                                        <label for="is-subscription-social">Subscribe to Newsletter </label>
-                                    </div>
-                                    <span class="wont-write">We do not post without your permission.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-
-    
-
-    
-        
-<div class="body-course-overlay"></div>
-<div class="off-canvas-left visible-sm visible-xs">
-    <div class="filter">
-        <div class="visible-xs visible-sm clearfix mobile-header">
-            <span>Filter</span>
-            <a href="javascript:void(0);" class="icons icon-close course-sidebar-close"></a>
-        </div>
-        
     </div>
-</div><div class="modal fade request-popup" id="get-notified-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body no-padding">
-                <button type="button" class="close position-absolute right-top" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <div class="bg-white clearfix">
-                    <h2 class="section-heading text-center">Get Notified</h2>
-                    <p class="mr-b-22 color-5 fs14 text-center">
-                        Please fill in the details and primebit Course Advisor will get in contact within 24 hrs to help you find a convenient schedule
-                    </p>
-                    <form action="#" method="post" class="form-list" id="notificationForm">
-                        <input type="hidden" value="#" name="page" />
-                        <input type="hidden" value="5" name="course_id" />
-                        <input type="hidden" value="0" name="session_id" />
-                        <input type="hidden" value="0" name="learning_type_id" />
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" name="first_name" value="" maxlength="100" class="form-control" required="required"  />
-                                    <i class="icons icons-contact icon-fullname"></i>
-                                    <label>First name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" name="last_name" value="" maxlength="100" class="form-control" required="required"  />
-                                    <i class="icons icons-contact icon-fullname"></i>
-                                    <label>Last name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" name="email" value="" maxlength="100" class="form-control" required="required"  />
-                                    <i class="icons icons-contact icon-email"></i>
-                                    <label>E-mail</label>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-3">
-                                        <div class="form-group">
-                                            <div class="right-inner-addon">
-                                                <i class="icons select-icon"></i>
-                                                <select name="isd" class="form-control isd-code">
-</select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-9 col-sm-9">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || (event.keyCode == 8 || event.keyCode == 46
-                                                    || event.keyCode == 37 || event.keyCode == 39)' maxlength="30" name="phone" required="">
-                                            <i class="icons icons-contact icon-phone"></i>
-                                            <label>Phone</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-success waves-effect waves-light" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Submitting">
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-        
-
-</div>
 
 <!-- -->
 </div>
@@ -2581,10 +991,12 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
 </div>
 
 <aside class="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">  
-                            <section class="widget has-divider"> 
+  <input type="hidden" name="page" value="web_coursecontentent.html" />
+                                        <button name="courses" type="submit" class="btn btn-primary btn-block waves-light waves-effect text-uppercase" style="position:relative; top:10px;" ><a href="web_coursecontent.html" style="text-decoration:none; color:#fff;">Back To Course List</a></button>
+                            <section class="widget has-divider" style="margin-top:50px;"> 
                                 <h3 class="title">Apply Online</h3>
                                         <div class="main-login main-center">
-        <h5>Sign up once and watch any of our free demos.</h5>
+        <h5>Sign up once and attend free demos.</h5>
           <form class="" method="post" action="#">
             
             <div class="form-group">
@@ -2646,8 +1058,8 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                             </section><!--//widget-->    
                             <section class="widget has-divider">
                                 <h3 class="title">Download Prospectus</h3>
-                                <p>Donec pulvinar arcu lacus, vel aliquam libero scelerisque a. Cras mi tellus, vulputate eu eleifend at, consectetur fringilla lacus. Nulla ut purus.</p>
-                                <a class="btn btn-theme" href="#"><i class="fa fa-download"></i>Download now</a>
+                                <p>You can view and download the course Content Here</p>
+                                <a class="btn btn-theme" href="C:\Users\Primebit Solutions\Downloads\jquery and javascript.pdf"><i class="fa fa-download"></i>Download now</a>
                             </section><!--//widget-->     
 
                              
@@ -2680,7 +1092,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 $21.000</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="">Buy Now</a>
+                            <a class="btn btn-success" href="">Enroll</a>
                         </div>
                     </div>
                 </div>
@@ -2705,7 +1117,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 $21.000</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="">Buy Now</a>
+                            <a class="btn btn-success" href="">Enroll</a>
                         </div>
                     </div>
                 </div>
@@ -2730,7 +1142,7 @@ While you may use a different editor or IDE, Visual Studio Code is an excellent 
                                 $21.000</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" href="">Buy Now</a>
+                            <a class="btn btn-success" href="">Enroll</a>
                         </div>
                     </div>
                 </div>

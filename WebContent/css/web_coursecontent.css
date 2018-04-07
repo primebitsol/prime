@@ -11,7 +11,7 @@ body{
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    //height:350px;
+    height:350px;
 }
 
 .item.list-group-item
@@ -45,6 +45,7 @@ body{
     display: table;
     content: " ";
 }
+
 .item.list-group-item .course-icon
 {
     float: left;
@@ -63,7 +64,6 @@ body{
 	width: 32.3%;
     float: left;
 }
-
 .item.list-group-item .meta-categories{
 	float:right;
 }
