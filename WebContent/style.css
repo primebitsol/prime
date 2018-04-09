@@ -1204,6 +1204,7 @@ div[data-dimension] {
   text-align: center;
   width: 100%;
 }
+
 #imgBanner h2 {
   color: #fff;
   font-size: 72px;
@@ -1211,6 +1212,7 @@ div[data-dimension] {
   text-align: center;
   text-transform: uppercase;
 }
+
 #courseArchive{
   float: left;
   display: inline;
