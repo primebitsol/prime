@@ -1741,7 +1741,7 @@ div[data-dimension] {
   width: 100%;
 }
  .wp-form-control {
-  border: 1px solid #ffffff;
+  /*border: 1px solid #ffffff;*/
   border-radius: 5px;
   display: inline;
   float: left;

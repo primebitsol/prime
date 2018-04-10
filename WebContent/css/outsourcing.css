@@ -2923,12 +2923,39 @@ color:#fff;
 			#navPanel .close:hover {
 				color: inherit;
 			}
+			/*scroll to top*/
+
+.scrollToTop {
+  background: url("images/bootom-top-arrow.png") no-repeat scroll 13px 15px #ffffff;
+  
+  border: 3px solid #f0f1f3;
+  border-radius: 5px;
+  bottom: 20px;
+  display: inline-block;
+  height: 54px;
+  opacity: 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 54px;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  
+}
+
+.scrollToTop:hover{
+  background-position: 13px -50px;  
+  text-decoration: none;
+  outline: none;
+}
 
 /* Banner */
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url("images/banner.jpg");
+		background-image: url("images/banned.jpg");
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;

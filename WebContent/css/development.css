@@ -14,6 +14,33 @@ html{
 body{
 	font-family: 'Roboto', 'sans-serif';
 }
+/*scroll to top*/
+
+.scrollToTop {
+  background: url("images/bootom-top-arrow.png") no-repeat scroll 13px 15px #ffffff;
+  
+  border: 3px solid #f0f1f3;
+  border-radius: 5px;
+  bottom: 20px;
+  display: inline-block;
+  height: 54px;
+  opacity: 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 54px;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  
+}
+
+.scrollToTop:hover{
+  background-position: 13px -50px;  
+  text-decoration: none;
+  outline: none;
+}
 .headerLine{
 	position: relative;
 	width: 100%;
