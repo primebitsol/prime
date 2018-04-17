@@ -1205,6 +1205,7 @@ div[data-dimension] {
   width: 100%;
 }
 
+
 #imgBanner h2 {
   color: #fff;
   font-size: 72px;
@@ -1245,7 +1246,7 @@ div[data-dimension] {
   display: inline;
   width: 100%; 
   padding: 12px;
-  min-height: 500px;
+  min-height: 300px;
 }
 .single_sidebar{
   float: left;
@@ -1267,7 +1268,7 @@ div[data-dimension] {
 }
 .single_sidebar > ul > li>a {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   padding: 5px;
   -webkit-transition: all 0.5s;
@@ -1277,6 +1278,9 @@ div[data-dimension] {
 .single_sidebar > ul > li>a:hover,.single_sidebar > ul > li>a:focus{
   text-decoration: none;
   outline: none;
+}
+.single_sidebar > ul {
+	padding-bottom: 27px;
 }
 
 /*--------------------*/

@@ -1,3 +1,22 @@
+<?php 
+//conncetion to database file
+require_once('connect.php');
+//
+if(isset($_POST) &!empty($_POST)){
+	 $username=mysqli_real_escape_string($connection,$_POST['username']);
+	 $email_id=mysqli_real_escape_string($connection,$_POST['email_id']);
+	 $phone_num=mysqli_real_escape_string($connection,$_POST['phone_num']);
+	 $course=mysqli_real_escape_string($connection,$_POST['course']);
+	 $message=mysqli_real_escape_string($connection,$_POST['message']);
+	 $sql="INSERT INTO contactus_details(username,email_id,phone_num,course,message)VALUES('$username','$email_id',$phone_num,'$course','$message')";
+	 $result=mysqli_query($connection,$sql);
+	 if($result){
+	 	echo "Your record saved successfully";
+	 }else{
+	 	echo "details submission failed";
+	 }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -177,7 +196,7 @@
                   <li><a href="courses.html">Training</a></li>
                   <li><a href="development.html">Development</a></li>
                   <li><a href="outsourcing.html">Outsourcing</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div>
             </div>
